@@ -1,0 +1,22 @@
+
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-image: url("background_burger.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 52px;
+}
+
+
+.intro {
+    color: #cdbfe3;
+    width: 400px;
+}
+
