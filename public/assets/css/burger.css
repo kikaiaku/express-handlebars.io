@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Patrick Hand', cursive;
-    background-image: url("background_burger.jpg");
+    background-image: url("../images/background_burger.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -1,5 +1,5 @@
-INSERT INTO burger (burger_name, devoured) VALUES ('BACON CHEESEBURGER', false);
-INSERT INTO burger (burger_name, devoured) VALUES ('Hells Inferno', false);
-INSERT INTO burger (burger_name, devoured) VALUES ('Carolina Classic', true);
-INSERT INTO burger (burger_name, devoured) VALUES ('KRABY Pattie', true);
-INSERT INTO burger (burger_name, devoured) VALUES ('Scooby Snack', true);
+INSERT INTO burgers (burger_name, devoured, date) VALUES ('BACON CHEESEBURGER', false, curdate());
+INSERT INTO burgers (burger_name, devoured, date) VALUES ('Hells Inferno', false, curdate());
+INSERT INTO burgers (burger_name, devoured, date) VALUES ('Carolina Classic', true, curdate());
+INSERT INTO burgers (burger_name, devoured, date) VALUES ('KRABY Pattie', true, curdate());
+INSERT INTO burgers (burger_name, devoured, date) VALUES ('Scooby Snack', true, curdate());
