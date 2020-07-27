@@ -12,11 +12,15 @@ body {
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-size: 52px;
+    background-color: white;
 }
 
 
 .intro {
-    color: #cdbfe3;
+    color: #fff;
+
     width: 400px;
 }
-
+.title{
+    text-align: center;
+}

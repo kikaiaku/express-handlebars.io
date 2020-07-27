@@ -20,7 +20,7 @@ router.post("/", function(req, res) {
   burger.create([
     "burger_name", "devoured", "date"
   ], [
-    req.body.burgerName, 0, new Date().now()
+    req.body.burgerName, 0, new Date()
   ], function() {
     res.redirect("/");
   });

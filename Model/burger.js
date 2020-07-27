@@ -4,18 +4,18 @@ var orm = require("../connect_config/orm.js");
 
 var burger = {
   all: function(burgerCallback) {
-    orm.all("burger", function(res) {
+    orm.all("burgers", function(res) {
       burgerCallback(res);
     });
   },
   // The variables cols and vals are arrays.
   create: function(cols, vals, burgerCallback) {
-    orm.create("burger", cols, vals, function(res) {
+    orm.create("burgers", cols, vals, function(res) {
       burgerCallback(res);
     });
   },
   update: function(objColVals, condition, burgerCallback) {
-    orm.update("burger", objColVals, condition, function(res) {
+    orm.update("burgers", objColVals, condition, function(res) {
       burgerCallback(res);
     });
   }
