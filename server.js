@@ -27,4 +27,6 @@ app.set("view engine", "handlebars");
 
 app.use("/", routes);
 
-app.listen(port, () => console.log("listening"));
+app.listen(port, function()  {
+    console.log("listening")
+});
