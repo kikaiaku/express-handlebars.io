@@ -5,18 +5,18 @@ require('dotenv').config();
 //   connection = mysql.createConnection(process.env.JAWSDB_URL);
 // } else {
 //   console.log("\n\n\n using local \n\n\n")
-  let connection = mysql.createConnection({
-    port: 3306,
-    host: process.env.host,
-    user: process.env.user,
-    password: process.env.password,
-    database: process.env.database
-  });
+let connection = mysql.createConnection({
+  host: process.env.host,
+  port: 3306,
+  user: process.env.user,
+  password: process.env.password,
+  database: process.env.database
+});
 // };
 
 // Make connection.
-connection.connect(function(e){
-  if(e){
+connection.connect(function (e) {
+  if (e) {
     console.log("error", e)
   } else {
     console.log("connected as", connection.threadId
