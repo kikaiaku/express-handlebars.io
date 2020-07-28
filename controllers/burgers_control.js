@@ -7,14 +7,14 @@ var burger = require("../model/burgers.js");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
-  burger.all(function(data) {
-    var handlebarObject = {
-      burger: data
-    };
-    console.log(handlebarObject);
-    res.render("index", handlebarObject);
+  // burger.all(function(data) {
+  //   var handlebarObject = {
+  //     burger: data
+  //   };
+  //   console.log(handlebarObject);
+    res.render("index", );
   });
-});
+// });
 
 router.post("/", function(req, res) {
   burger.create([
