@@ -9,7 +9,7 @@ if (process.env.JAWSDB_URL) {
   console.log("\n\n\n using local \n\n\n")
   connection = mysql.createConnection({
     port: process.env.port,
-    host: "127.0.0.1",
+    host: "::",
     user: "root",
     password: "K1ka1AkuOkam1<363",
     database: "burgers_db"
